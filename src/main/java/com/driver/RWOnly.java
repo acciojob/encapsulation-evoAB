@@ -1,13 +1,13 @@
 package com.driver;
 
 public class RWOnly {
-    private String token;
+    private String name;
 
     public String getToken() {
-        return token;
+        return name;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setToken(String name) {
+        this.name = name;
     }
 }
